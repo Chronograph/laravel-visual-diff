@@ -24,14 +24,14 @@
         }
     ],
     "require": {
-        "php": "^7.1",
-        "illuminate/support": "^7",
+        "php": "^7.1^8.0",
+        "illuminate/support": "^7|^8",
         "symfony/process": "^5.1",
-        "spatie/browsershot": "^3.37"
+        "spatie/browsershot": "^3"
     },
     "require-dev": {
         "orchestra/testbench-dusk": "3.6.x@dev",
-        "phpunit/phpunit": "^7.0"
+        "phpunit/phpunit": "^7|^9"
     },
     "autoload": {
         "psr-4": {
